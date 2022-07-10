@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Footer from "../components/Footer.astro";
+import Hello from "../components/Hello.jsx";
+---
+<Layout title="About">
+    <h1>About Me</h1>
+    <Footer title="John Gualteros"/>
+    <Hello client:load />
+</Layout>
